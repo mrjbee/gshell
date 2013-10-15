@@ -1,5 +1,7 @@
 GShell or Groovy Shell
 ======
+##Downloads
+Please visit [release](https://github.com/mrjbee/gshell/releases) page
 
 ##About
 Small tool which allows to execute groovy script from command line. GShell is based on Groovy CLI which 
@@ -24,10 +26,10 @@ execute:{options->
 ```
 As you might notice script contains two parts, which represents by closures. Usage closure - allows to specify script 
 options which would be provided as console command arguments. Usage closure use groovy CliBuilder for declaring 
-option type and usage. Find more on [CliBuidler home page](http://groovy.codehaus.org/Groovy+CLI).
+option type and usage. Find more on [CliBuidler](http://groovy.codehaus.org/Groovy+CLI) home page.
 
 Execute closure - allows to specify script body. You could access options provided by user in command line by using
-options map. Find more on [CliBuidler home page](http://groovy.codehaus.org/Groovy+CLI).
+options map. Find more on [CliBuidler](http://groovy.codehaus.org/Groovy+CLI) home page.
 
 In order to run script open concole and type
 
