@@ -20,7 +20,7 @@ Groovy shell script runner. Usage:'gshell <Script Name> <Script Args>'
 <Script Args> - Arguments with witch script shoud be runned. If EMPTY - script
                 help will be displayed
 
-(version 0.1-SNAPSHOT)
+(version 0.2)
 """
 
     static void main(String[] args){
