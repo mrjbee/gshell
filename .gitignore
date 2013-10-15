@@ -10,7 +10,7 @@
 nohup.out
 
 #Maven Files#
-*/target
+/target
 
 #Intelij Idea Files#
 *.iml
